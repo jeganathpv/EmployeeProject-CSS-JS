@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Table Validation</title>
+        <link rel="Stylesheet" href="css/styles.css"/>
+        <script src="https://kit.fontawesome.com/836d4e02d9.js"></script>
+        
+    </head>
+    <body>
+        <header class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#details">Employee</a>
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="To Search" onkeyup="searchFunction()"/>
+               
+            </div>
+        </header>
+        <section id="home" class="home">
+                <div align="center">
+                        <form id="detailsform" name="details" action="#">
+                          <table>
+                            <caption>Fill your details</caption><br>
+                            <tr>
+                                <td>
+                                    Employee ID<br>
+                                    <input class="entries" type="number" placeholder="Enter your Employee ID" name="empid" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Name<br>
+                                    <input class="entries" type="text" placeholder="Enter your Name" name="name" />
+                                </td>
+                                  </tr>
+                            <tr>
+                              <td>
+                                Email <br>
+                                <input class="entries" type="email" placeholder="Enter your email id" name="email" onkeyup="emailValidation(this.value)"/><br>
+                                <span id="mailsuccess" class="alert-success" style="display: none;">&#10004;Valid Mail address</span>
+                                <span id="mailfailure" class="alert-failure" style="display: none;">&#9888;Invalid Mail address</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Mobile<br>
+                                <input class="entries" type="text"  placeholder="Enter mobile no." name="mobile" onkeyup="mobValidation(this.value)" />
+                                <span id="mobsuccess" class="alert-success" style="display: none;">&#10004;Valid Mobile Number</span>
+                                <span id="mobfailure" class="alert-failure" style="display: none;">&#9888;Invalid Mobile Number</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              
+                              <td>
+                                <button type="button" onclick="createtable()">Submit</button>
+                                <button type="button" onclick="resetFunction()">Reset</button>
+                                <span id="allfield" class="alert-failure" style="display: none;">&#9888; Please check all the fields</span>
+                              </td>
+                            </tr>
+                          </table>
+                          <hr>
+                      </div>
+        </section>
+        <section class="details">
+                <div id="details" align="center" style="display:none">    
+                        <hr>
+                      </div>
+        </section>
+        
+        <footer class="botnav">
+            <a href="#home"><i class="fas fa-home"></i></a>
+        </footer>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

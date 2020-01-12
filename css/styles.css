@@ -1,0 +1,262 @@
+th{
+	border: 1px solid black;
+    	background: burlywood;
+	color:crimson;
+	border-collapse: collapse;
+	padding:5px;
+
+}
+table{
+	/* border: 1px solid black; */
+	background: antiquewhite;
+	color:brown;
+	width: 50%;
+	/* border-collapse: collapse; */
+	padding:8px;
+}
+td{
+	/* border: 1px solid black; */
+	background: antiquewhite;
+	color:brown;
+	/* border-collapse: collapse; */
+	
+	padding:8px;
+	font-style: italic;
+    	font-size: 20px;
+}
+td input,textarea{
+	padding:5px;
+    width:100%;
+    background-color: #80fcd4;
+    border-radius: 5px;
+	font-style: italic;
+    	font-size: 15px;
+} 
+
+
+body{
+	margin:0;
+}
+h1{
+  color: brown;
+  font-style: italic
+}
+caption{
+  font-size:30px;
+  font-weight: bold;
+  font-style: italic;
+}
+p{
+font-style: italic;
+font-size: medium;
+text-align: justify;
+padding: 10px;
+}
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.details{
+  background: azure;
+  margin-bottom: 50px;
+}
+.details button{
+  background-color: rgb(49, 46, 207);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px;
+  cursor: pointer;
+}
+.details button:hover{
+  background-color: rgb(7, 5, 121);
+}
+.details table{
+	border: 1px solid black;
+	background: antiquewhite;
+	color:brown;
+	width: 60%;
+	border-collapse: collapse;
+    padding:8px;
+    padding-bottom: 50px;
+
+}
+.details td{
+	border: 1px solid black;
+	background: antiquewhite;
+	color:brown;
+	border-collapse: collapse;
+	
+	padding:8px;
+	font-style: italic;
+    	font-size: 20px;
+}
+.details td input,textarea{
+	padding:5px;
+    width:100%;
+    background-color: #80fcd4;
+    border-radius: 5px;
+	font-style: italic;
+    	font-size: 15px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #093c3e;
+  position: fixed;
+  font: 1em sans-serif;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #bf4870;
+  color: white;
+}
+
+.botnav {
+  overflow: hidden;
+  background-color: #093c3e;
+  position: fixed;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+}
+
+.botnav a {
+  float: right;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.botnav a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.footerstyle{
+    text-align: center;
+    color: #ffeed7;
+}
+
+.home{
+  background-color: aquamarine;
+  background-size: cover;
+  padding-top: 50px;
+}
+.home button{
+    background-color: rgb(49, 46, 207);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px;
+    cursor: pointer;
+}
+.home button:hover{
+  background-color: rgb(7, 5, 121);
+}
+
+.home th{
+	border: 1px solid black;
+    	background: burlywood;
+	color:crimson;
+	border-collapse: collapse;
+	padding:5px;
+
+}
+.home table{
+	/* border: 1px solid black; */
+	background: antiquewhite;
+	color:brown;
+	width: 50%;
+	/* border-collapse: collapse; */
+	padding:8px;
+}
+.home td{
+	/* border: 1px solid black; */
+	background: antiquewhite;
+	color:brown;
+	/* border-collapse: collapse; */
+	
+	padding:8px;
+	font-style: normal;
+    	font-size: 20px;
+}
+.home td input,textarea{
+	padding:8px;
+    width:100%;
+    background-color: #80fcd4;
+    border-radius: 5px;
+	font-style: italic;
+    	font-size: 15px;
+} 
+.search{
+    float: right;
+    width: 30%;
+    background-color: #f2f2f2;
+    radius:5px;
+    padding: 8px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.search input{
+    border: none;
+    /* border-bottom: 1px solid black; */
+    width: 100%;
+}
+
+.alert-success{
+  font-size: 15px;
+  color: green;
+  font-weight: bold;
+  font-style: normal;
+  float:right;
+}
+
+.alert-failure{
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+  float:right;
+}
